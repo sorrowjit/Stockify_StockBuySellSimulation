@@ -1,0 +1,58 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/*body {
+  font-family: 'Inter', sans-serif;
+  background: linear-gradient(to bottom right, #f0f9ff, #ffffff);
+}*/
+
+body {
+    /* --- Background Styling --- */
+    /* A deep, subtle gradient for depth and sophistication */
+    background: linear-gradient(to right, #696eff, #f8acff);
+    /* Fallback background color */
+    background-color: #1a2a3a;
+    /* Ensure the background covers the whole viewport */
+    background-size: cover;
+    background-attachment: fixed; /* Keeps the background in place when scrolling */
+
+    /* --- Typography Defaults --- */
+    /* Modern, clean font - easily readable for data */
+    font-family: 'Roboto', sans-serif;
+    /* Base font size for readability */
+    font-size: 16px;
+    /* Improved line spacing for better text flow */
+    line-height: 1.6;
+
+    /* --- Layout & Spacing --- */
+    /* Remove default margin */
+    margin: 0;
+    /* Add some padding around the content */
+    padding: 20px;
+    /* Minimum height to ensure the background covers the full viewport even with little content */
+    min-height: 100vh;
+
+    /* --- Visual Enhancements --- */
+    /* Smooth scrolling for a better user experience */
+    scroll-behavior: smooth;
+    /* Optional: Text shadow for a subtle lift, good for lighter text on dark backgrounds */
+    /* text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1); */
+}
+
+.maindiv{
+  background: linear-gradient(to right, #696eff, #f8acff);
+}
+
+.card{
+  background: linear-gradient(to right, #08203e, #471069);
+}
+
+u.boy {
+  color: rgb(211, 206, 206); /* Example: Make the underlined text red */
+  text-decoration: underline; /* Ensure it's still underlined */
+}
+
+h2.heading {
+  color: rgb(211, 206, 206);
+}
